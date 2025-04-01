@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join NGO Connect as a volunteer and make an impact!">
+    <meta name="keywords" content="NGO Connect, Volunteer, Social Work, Registration">
+    <meta name="author" content="NGO Connect">
+    <title>Volunteer Registration - NGO Connect</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./images/download.png" alt="NGO Connect Logo" class="logo-img">
+                <a href="index.html">NGO CONNECT</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="work.html">Our Work</a></li>
+                <li><a href="get-involved.html">Get Involved</a></li>
+                <li><a href="news.html">News & Events</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <a href="donation.html" class="donate-btn">Donate Now</a>
+            <div class="hamburger"></div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Volunteer Registration</h1>
+        </section>
+
+        <section class="volunteer-section">
+            <h2>Join Us as a Volunteer</h2>
+            <p>Fill out the form below to be a part of our mission.</p>
+
+            <form class="volunteer-form" id="volunteer-form">
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                <input type="text" name="phone" id="phone" placeholder="Your Phone" required>
+                
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="interests">Area of Interest:</label>
+                <select id="interests" name="interests" required>
+                    <option value="">Select</option>
+                    <option value="Education">Education</option>
+                    <option value="Healthcare">Healthcare</option>
+                    <option value="Environment">Environment</option>
+                    <option value="Fundraising">Fundraising</option>
+                </select>
+
+                <label for="availability">Availability:</label>
+                <select id="availability" name="availability" required>
+                    <option value="">Select</option>
+                    <option value="Weekdays">Weekdays</option>
+                    <option value="Weekends">Weekends</option>
+                    <option value="Flexible">Flexible</option>
+                </select>
+
+                <input type="text" name="skills" id="skills" placeholder="Skills & Experience (Optional)">
+                
+                <label for="resume">Upload Resume (Optional):</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+                
+                <textarea name="message" id="message" placeholder="Why do you want to volunteer?" required></textarea>
+                <button type="submit">Register</button>
+                <p id="response-message"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@getconnect.org</p>
+                <p>Phone: 25635685347</p>
+                <p>Address: 678 NGO Street 1, Rewari, Haryana, India</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="work.html">Our Work</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://facebook.com/NGOConnect"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/NGOConnect"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/NGOConnect"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com/company/NGOConnect"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 NGO Connect. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
